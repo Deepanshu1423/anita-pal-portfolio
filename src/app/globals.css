@@ -2182,3 +2182,76 @@ main {
     font-size: 14px;
   }
 }
+
+/* ================================
+   Mobile Hero Photo Card Fix
+================================ */
+
+@media (max-width: 768px) {
+  .hero-fast-section {
+    padding-top: 110px;
+  }
+
+  .hero-fast-section .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-mobile-photo {
+    order: 2;
+    width: 100%;
+    min-height: auto;
+    margin-top: 10px;
+  }
+
+  .hero-fast-stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-fast-card {
+    width: min(100%, 360px);
+    min-height: auto;
+    transform: none !important;
+  }
+
+  .fast-profile-card {
+    min-height: auto;
+    padding: 24px 20px;
+  }
+
+  .fast-avatar {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 8px;
+  }
+
+  .fast-chip {
+    display: none;
+  }
+
+  .fast-shadow {
+    display: none;
+  }
+
+  .hero-profile-highlights {
+    margin-top: 22px;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero-fast-card {
+    width: 100%;
+  }
+
+  .fast-profile-card {
+    padding: 22px 16px;
+    border-radius: 28px;
+  }
+
+  .fast-avatar {
+    width: 165px;
+    height: 165px;
+  }
+}

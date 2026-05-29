@@ -89,7 +89,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="hero-fast-stage reveal delay-2">
+        <div className="hero-fast-stage hero-mobile-photo reveal delay-2">
           <div
             className="hero-fast-card"
             onMouseMove={handleMouseMove}
